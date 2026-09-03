@@ -1,18 +1,21 @@
+:root {
+  --main-color: #00acdc;
+}
+
 html {
   font-family: Roboto, sans-serif;
   font-size: 12px;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 body {
   margin: 0;
   padding: 0;
-
-  --main-color: #00acdc;
 }
 
 .header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 0 50px;
 }
