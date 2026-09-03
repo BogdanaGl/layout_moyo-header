@@ -7,6 +7,8 @@ html {
 body {
   margin: 0;
   padding: 0;
+
+  --main-color: #00acdc;
 }
 
 .header {
@@ -54,17 +56,17 @@ body {
 }
 
 .nav_link:hover {
-  color: #00acdc;
+  color: var(--main-color);
 }
 
 .is-active {
-  color: #00acdc;
+  color: var(--main-color);
   position: relative;
 }
 
 .is-active::after {
   content: '';
-  background-color: #00acdc;
+  background-color: var(--main-color);
   height: 4px;
   width: 100%;
   display: flex;
